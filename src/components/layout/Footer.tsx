@@ -165,7 +165,7 @@ export default function Footer({}: Props) {
             <span className="footer__col__heading text-base pb-2 border-b-2 border-[#2D83EE] ">
               Our Programmes
             </span>
-            <div className="cta__buttons mt-8 grid gap-4 h-min grid-cols-2 lg:grid-cols-4 text-sm">
+            <div className="cta__buttons mt-8 grid md:flex gap-4 h-min grid-cols-2 text-sm">
               <Button>Refer-Earn-Secure</Button>
               <Button>WAGSI Grants</Button>
               <Button>Ambassador Program</Button>
