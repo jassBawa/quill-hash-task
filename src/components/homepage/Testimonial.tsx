@@ -15,14 +15,25 @@ export default function Testimonial({}: Props) {
           <DoubleQuoteIcon />
         </div>
 
-        <div className="relative -right-28">
+        <div className="relative -right-28 md:right-0">
           <p className="text-xl md:text-3xl font-semibold ">Sally Radley</p>
           <p className="text-sm md:text-base">WebGFi - CEO</p>
         </div>
-        <div className="h-28 w-28 md:h-36 md:w-36 absolute left-10 -bottom-8 md:right-20 md:-bottom-12 bg-[#204ECF] rounded"></div>
+        <div
+          className="h-28 w-28 md:h-36 md:w-36 
+        absolute left-10 -bottom-8
+        md:inset-16 md:left-80 
+        bg-[#204ECF] rounded"
+        ></div>
       </div>
       <div className="testimonial__bottom relative px-8 pt-16 md:pt-14 pb-20">
-        <div className="stars flex items-center gap-1 md:gap-2 -translate-y-8 absolute right-10 top-12 ">
+        <div
+          className="stars flex items-center gap-1 md:gap-2 
+          -translate-y-8 md:-translate-y-8
+          absolute md:relative right-10 top-12 
+        md:right-0 md:top-0
+        "
+        >
           <StarIcon />
           <StarIcon />
           <StarIcon />

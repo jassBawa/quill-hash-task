@@ -16,7 +16,7 @@ export default function Newsletter({}: Props) {
           <p className="text-[#407AFF] text-lg mt-8 font-semibold hidden md:block">
             NEWSLETTER
           </p>
-          <p className="subscribe__heading mt-4 text-md text-center md:text-4xl leading-loose font-semibold text-[#14316C]">
+          <p className="subscribe__heading mt-4 text-md text-center md:text-left md:text-4xl leading-loose font-semibold text-[#14316C]">
             Security First News Letter by QuillAudits
           </p>
           <p className="text-[#2D3648] mt-8 hidden md:block">
@@ -49,7 +49,7 @@ export default function Newsletter({}: Props) {
               className="border-none outline-none flex-1 w-1/2"
               placeholder="vitalik@ethereum.org"
             />
-            <Button className="absolute md:relative -bottom-16 left-1/3 ">
+            <Button className="absolute md:relative -bottom-16 left-1/3 md:bottom-0 md:left-0">
               Subscribe
             </Button>
           </div>
