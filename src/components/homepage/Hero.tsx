@@ -6,7 +6,14 @@ type Props = {};
 export default function Hero({}: Props) {
   return (
     <>
-      <div className="hero__container mt-20 max-2xl w-full lg:max-w-4xl mx-auto flex flex-col md:flex-row gap-8 items-center">
+      <div
+        className="hero__container  
+        px-8 mt-8
+       w-full lg:max-w-4xl mx-auto flex flex-col 
+      md:flex-row gap-8 items-center
+      md:mt-20
+      "
+      >
         {/* Image */}
         <div className="hero__image__container relative flex-1">
           <div className="relative h-full w-full">
@@ -29,7 +36,7 @@ export default function Hero({}: Props) {
         </div>
 
         {/* Details */}
-        <div className="hero__details mt-8 flex-1 px-8 md:px-0 text-white">
+        <div className="hero__details mt-3 md:mt-8 flex-1 px-8 md:px-0 text-white">
           <h3 className="font-display font-medium text-2xl lg:text-4xl ">
             Securing Trust: Boosting Security and Strengthening Trust at Carpe
             Diem Pension
@@ -41,7 +48,7 @@ export default function Hero({}: Props) {
           </p>
         </div>
       </div>
-      <div className="hero__navigation mt-12 relative bottom-2 left-[5%] md:left-[20%] text-xs text-white/40 ">
+      <div className="hero__navigation mt-12 ml-16 bottom-2 md:relative md:left-[20%] text-xs text-white/40 ">
         <span>QuillAudits</span>
         <span> -&gt; </span>
         <span>Resources</span>

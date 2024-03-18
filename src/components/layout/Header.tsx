@@ -10,7 +10,7 @@ export default function Header({}: Props) {
   return (
     <header
       className="max-w-[80%] pt-8 md:mt-0 relative z-10 mx-auto pb-6 flex items-center justify-between text-white
-    border-b-2 border-slate-600 font-display
+    md:border-b-2 border-slate-600 font-display
     "
     >
       <div className="header__logo flex items-center gap-2">

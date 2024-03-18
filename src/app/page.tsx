@@ -15,10 +15,10 @@ import {
 
 export default function Home() {
   return (
-    <main className="homepage border">
-      <section className="homepage__hero relative">
+    <main className="homepage">
+      <section className="homepage__hero relative py-8 pb-16 md:py-0">
         <Header />
-        {/* <Hero /> */}
+        <Hero />
       </section>
 
       <div className="max-w-4xl mx-auto mt-12 py-8">
