@@ -12,8 +12,8 @@ export default function ComprehensiveAudit({}: Props) {
       <p className="mt-4 leading-relaxed">
         Throughout the audit process, we unearthed a total of 33 issues,
         spanning from minor concerns to critical vulnerabilities. Among these,
-        some of the critical issues identified were: Here's how we remediated
-        them :
+        some of the critical issues identified were: Here&apos;s how we
+        remediated them :
       </p>
       <ComprehensiveListItem
         heading="1. Unauthorized Claim/Compound:"
